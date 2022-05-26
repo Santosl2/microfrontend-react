@@ -15,7 +15,9 @@ Primeiro micro-frontend desenvolvido para fins de estudo.
 
     - react-multiples => micro-frontend exemplar usando react-router-dom
 
-    - react-parcel => micro-frontend
+    - react-parcel => micro-frontend de to-do list
+
+    - react-route => micro-frontend com os eventos (usado em react-parcel)
 
 ## Techs Usadas
 

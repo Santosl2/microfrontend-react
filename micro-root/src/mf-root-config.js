@@ -27,6 +27,12 @@ registerApplication({
   activeWhen: (location) => location.pathname === "/react-parcel",
 });
 
+registerApplication({
+  name: "@mf/react-route",
+  app: () => System.import("@mf/react-route"),
+  activeWhen: (location) => location.pathname === "/react-route",
+});
+
 start({
   urlRerouteOnly: true,
 });
