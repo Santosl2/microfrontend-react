@@ -13,7 +13,9 @@ Primeiro micro-frontend desenvolvido para fins de estudo.
 
     - micro02 => micro-frontend básico, apenas com um contador
 
-    - react-multiples => micro-frontend mais "avançado" com rotas
+    - react-multiples => micro-frontend exemplar usando react-router-dom
+
+    - react-parcel => micro-frontend
 
 ## Techs Usadas
 
