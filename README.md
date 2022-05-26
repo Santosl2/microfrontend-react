@@ -5,7 +5,7 @@
 
 ## Introdução
 
-Primeiro micro-frontend desenvolvido para fins de estudo.
+Primeiro micro-frontend desenvolvido para fins de estudo, utilizando React JS + Single SPA.
 
 ## Explicando projeto
 
@@ -17,9 +17,9 @@ Primeiro micro-frontend desenvolvido para fins de estudo.
 
     - react-parcel => micro-frontend de to-do list
 
-    - react-route => micro-frontend com os eventos (usado em react-parcel)
+    - react-route => micro-frontend compartilhando estados entre componentes (usado em react-parcel)
 
-    - react-lazy => micro-frontend utilizando lazy loading
+    - react-utils => funções para compartilhar estados entre componentes
 
 ## Techs Usadas
 
