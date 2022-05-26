@@ -1,6 +1,7 @@
 # Micro-frontend React
 
 - [Introdução](#)
+- [Explicando projeto](#explicando-projeto)
 - [Techs Usadas](#techs-usadas)
 
 ## Introdução
