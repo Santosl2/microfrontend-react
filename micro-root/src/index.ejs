@@ -38,7 +38,7 @@
           "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
           "react": "https://unpkg.com/react@17/umd/react.production.min.js",
           "react-dom": "https://unpkg.com/react-dom@17/umd/react-dom.production.min.js",
-          "react-router-dom": "https://unpkg.com/browse/react-router-dom@6.3.0/react-router-dom.production.min.js"
+          "react-router-dom": "https://unpkg.com/react-router-dom@5.2.0/umd/react-router-dom.min.js"
         }
       }
     </script>
@@ -52,7 +52,7 @@
     <!-- <script type="systemjs-importmap" src="/importmap.json"></script> -->
 
     <% if (isLocal) { %>
-    <script type="systemjs-importmap">
+    <!-- <script type="systemjs-importmap">
       {
         "imports": {
           "@mf/root-config": "//localhost:9000/mf-root-config.js",
@@ -61,10 +61,21 @@
           "@mf/react-parcel": "//localhost:8501/mf-react-parcel.js",
           "@mf/react-route": "//localhost:8500/mf-react-route.js",
           "@mf/utils": "//localhost:8600/mf-utils.js",
+          "@mf/react-lazy": "//localhost:8600/mf-react-lazy.js",
           "@mf/react-header": "//localhost:8700/mf-react-header.js"
         }
       }
-    </script>
+    </script> -->
+    <script
+      type="systemjs-importmap"
+      src="https://run.mocky.io/v3/79afdebb-45ff-473a-9b31-e012c5c145eb"
+    ></script>
+
+    <% } else { %>
+    <script
+      type="systemjs-importmap"
+      src="https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/importmap.production.json"
+    ></script>
     <% } %>
 
     <!--

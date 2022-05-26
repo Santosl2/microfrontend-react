@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@mf/root-config": "http://localhost:9000/mf-root-config.js",
+    "@react/app": "http://localhost:8500/react-app.js",
+    "@mf/react-multiples": "http://localhost:8500/mf-react-multiples.js",
+    "@mf/react-parcel": "http://localhost:8501/mf-react-parcel.js",
+    "@mf/react-route": "http://localhost:8500/mf-react-route.js",
+    "@mf/utils": "http://localhost:8600/mf-utils.js",
+    "@mf/react-lazy": "http://localhost:8600/mf-react-lazy.js",
+    "@mf/react-header": "http://localhost:8700/mf-react-header.js"
+  }
+}

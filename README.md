@@ -19,6 +19,8 @@ Primeiro micro-frontend desenvolvido para fins de estudo.
 
     - react-route => micro-frontend com os eventos (usado em react-parcel)
 
+    - react-lazy => micro-frontend utilizando lazy loading
+
 ## Techs Usadas
 
     - React
